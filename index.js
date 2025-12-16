@@ -1,3 +1,5 @@
+const falseValue = require("false-value")()
+
 module.exports = function (value) {
-  return value === false
+  return value === falseValue
 }
